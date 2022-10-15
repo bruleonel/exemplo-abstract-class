@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using ClasseAbstrata.Models;
+
+Corrente contaConte = new Corrente();
+
+contaConte.Creditar(500);
+contaConte.ExibirSaldo();
