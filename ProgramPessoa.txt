@@ -1,0 +1,6 @@
+using ClasseAbstrata.Models;
+
+Pessoa p1 = new Pessoa("Bruna");
+Aluno a1 = new Aluno ("Julia");
+
+a1.Apresentar();

@@ -1,6 +1,4 @@
 ﻿using ClasseAbstrata.Models;
 
-Corrente contaConte = new Corrente();
-
-contaConte.Creditar(500);
-contaConte.ExibirSaldo();
+Calculadora c = new Calculadora();
+Console.WriteLine(c.Somar(20,45));
